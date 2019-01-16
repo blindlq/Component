@@ -1,0 +1,26 @@
+{
+    "name": "junhaiserver/workflow",
+    "description": "工作流组件",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangcheng",
+            "email": "906314530@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"JunhaiServer\\Workflow\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"JunhaiServer\\Workflow\\": "tests/"}
+    },
+
+    "minimum-stability": "stable"
+}
